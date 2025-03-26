@@ -1,0 +1,128 @@
+1- Veure classificació lliga actual 🏆
+metodos:
+checkThereIsLiga()
+		Mira si existe liga i muestra
+mostraClasificacioLiga()
+Mostra la clasificacio del equip  (nom de l'equip, punts, partits disputats, gols a favor i gols en contra)
+2- Gestionar equip ⚽
+	Team Manager:
+		1- Donar de baixa equip
+			selecionarEquipo()
+			borrarEquip()
+		2- Modificar president/a
+selecionarEquipo()
+			settersClasePresident()
+		3- Destituir entrenador/a
+selecionarEquipo()
+			cambiarEntrenador()
+		4- Fitxar jugador/a o entrenador/a
+			selecionarEquipo()
+			agregaEntrenador()
+			agregaJugador()
+0- Sortir
+
+
+3- Donar d'alta equip
+registrarEquip()
+EscollirEquipDeLaBase()
+SettersEquip()
+agregarEntrenador()
+agregarJugadors()
+
+
+4- Donar d'alta jugador/a o entrenador/a
+	altaJugador()
+	altaEntrenador
+    selecionarEquipo()
+	agregarAlEquip()
+
+5- Consultar dades equip
+selecionarEquipo()
+	dadesEquip()
+
+
+6- Consultar dades jugador/a equip
+selecionarEquipo()
+	selecionarJugardor()
+	dadesJugador()
+
+
+7- Disputar nova lliga
+	novaLliga()
+
+
+8- Realitzar sessió entrenament (mercat fitxatges)
+	consultarMarcatFitxages()
+	fitxarJugador()
+
+
+9- Transferir jugador/a
+	TransferirJugador()
+
+
+10 - Desar dades equips
+	guardarArxiuCurrentGame()
+0- Sortir
+guardarArxiuCurrentGame()
+
+
+
+
+
+    private static double souAnual;
+    private final int numDorsal;
+    private static String posicio;
+    private static int rendiment;
+
+
+valorEsPositiu()
+
+
+opcioSiNo()
+
+
+
+java doc [especificado]
+    lliga - done
+    profesionalDeportivo - done
+    president - done
+    jugador - done
+
+
+    
+
+
+reorganitzamen dels metodes
+    clase jugador fet
+    clase entrenador fet
+    clase equip
+
+
+selectEquip[1]
+Integer.parseInt(selectEquip[0])
+
+String[] selectEquip = indexacioISeleccioLlistaEquips(dadesEquips);
+
+
+
+    indexacioISeleccioLlistaEquips(ArrayList<Equip> dadesEquips)
+
+
+
+    obtenerIndiceValidoJ
+
+Nivell de motivacio: 8
+Rendiment: 79
+tornarEntrenadorAlMercart(selectEquip,dadesEquips,mercatFitxatges);
+
+
+borrarProfessionalDeportiu
+
+    REHACER TODA LA OPCION 8
+    QUE LA SESIO DE ENTRENAMENT APLIQUE A LOS PD DEL MERCAT DE FITXATGES
+
+    METODE ENTRENAMEN EN PD
+        AUMENTA O DISMINUEIX LA MOTIVACIO I NIVELL DE RENDIMENT
+            + POSIBILITAT DE CANVI DE POSICIO JUGADOR
+            + POSIBILITAT AUMENTAR SOU ENTRENADOR
+

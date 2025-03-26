@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"classes","l":"Entrenador"},{"p":"classes","l":"Equip"},{"p":"classes","l":"GameMechanics"},{"p":"classes","l":"Jugador"},{"p":"classes","l":"Lliga"},{"p":"<Unnamed>","l":"Main"},{"p":"classes","l":"President"},{"p":"classes","l":"ProfessionalDeportivo"}];updateSearchResults();
